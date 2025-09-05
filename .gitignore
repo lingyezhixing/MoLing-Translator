@@ -1,0 +1,36 @@
+# 忽略缓存目录
+Cache/
+
+# 忽略结果目录
+Result/
+
+# 忽略日志文件
+app.log
+
+# 忽略代码统计工具
+count_lines.py
+
+# 忽略开发环境配置文件
+MoLing-Translator.code-workspace
+
+# 忽略Python缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+.venv
+env/
+venv/
+ENV/
+
+# 忽略IDE相关文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
