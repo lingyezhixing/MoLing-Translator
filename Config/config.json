@@ -1,0 +1,15 @@
+{
+    "Sakura-14B-Q6_K-2Kx10": {
+        "split_length": 500,
+        "server": "llama-cpp",
+        "bat_name": "Sakura-14b-Qwen2.5-v1.0-Q6_K-2Kx10.bat",
+        "model": "Sakura-14b-Qwen2.5-v1.0-Q6_K",
+        "system_prompt": "你是一个轻小说翻译模型，可以流畅通顺地以日本轻小说的风格将日文翻译成简体中文，并联系上下文正确使用人称代词，不擅自添加原文中没有的代词。",
+        "preset_prompt": "根据以下术语表（可以为空）：\n{DICT}\n\n将下面的日文文本根据上述术语表的对应关系和备注翻译成中文：",
+        "temperature": 0.1,
+        "top_p": 0.3,
+        "frequency_penalty": 0.25,
+        "max_retry_count": 16,
+        "Concurrent_quantity": 10
+    }
+}
