@@ -25,6 +25,9 @@ env/
 venv/
 ENV/
 
+# 忽略虚拟环境相关批处理文件
+虚拟环境.bat
+
 # 忽略IDE相关文件
 .vscode/
 .idea/
